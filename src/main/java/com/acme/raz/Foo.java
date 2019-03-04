@@ -6,6 +6,6 @@ public class Foo {
     public Bla bla;
 
     public static void main(String[] args) {
-        System.out.println("doing foo");
+        System.out.println("doing Foo");
     }
 }
