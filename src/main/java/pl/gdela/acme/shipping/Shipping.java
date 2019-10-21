@@ -1,8 +1,8 @@
 package pl.gdela.acme.shipping;
 
-import pl.gdela.acme.courriers.DhlCarrier;
-import pl.gdela.acme.courriers.FedExCarrier;
-import pl.gdela.acme.courriers.UpsCarrier;
+import pl.gdela.acme.courriers.dhl.DhlCarrier;
+import pl.gdela.acme.courriers.fedex.FedExCarrier;
+import pl.gdela.acme.courriers.ups.UpsCarrier;
 import pl.gdela.acme.inventory.Inventory;
 import pl.gdela.acme.orders.Orders;
 
