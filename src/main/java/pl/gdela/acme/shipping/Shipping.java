@@ -1,8 +1,8 @@
 package pl.gdela.acme.shipping;
 
-import pl.gdela.acme.courriers.dhl.DhlCarrier;
-import pl.gdela.acme.courriers.fedex.FedExCarrier;
-import pl.gdela.acme.courriers.ups.UpsCarrier;
+import pl.gdela.acme.couriers.dhl.DhlCarrier;
+import pl.gdela.acme.couriers.fedex.FedExCarrier;
+import pl.gdela.acme.couriers.ups.UpsCarrier;
 import pl.gdela.acme.inventory.Inventory;
 import pl.gdela.acme.orders.Orders;
 
@@ -16,4 +16,9 @@ public class Shipping {
     public void a() {}
     public void b() {}
     public void c() {}
+
+    {
+        orders = new Orders();
+        orders.dummy();
+    }
 }

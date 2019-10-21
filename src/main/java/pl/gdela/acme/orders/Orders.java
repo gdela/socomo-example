@@ -13,7 +13,7 @@ public class Orders {
     private Shipping shipping;
     private Invoicing invoicing;
 
-    private void dummy() {
+    public void dummy() {
         shipping.a();
         shipping.b();
         shipping.c();
