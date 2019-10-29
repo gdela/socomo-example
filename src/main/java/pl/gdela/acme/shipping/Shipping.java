@@ -21,4 +21,8 @@ public class Shipping {
         orders = new Orders();
         orders.dummy();
     }
+
+    public void ship() {
+        System.out.println(orders);
+    }
 }
