@@ -16,9 +16,16 @@ public class Shipping {
     public void a() {}
     public void b() {}
     public void c() {}
+    public void d() {}
+    public void e() {}
+    public void f() {}
 
     {
         orders = new Orders();
-        orders.dummy();
+        System.out.println(orders);
+    }
+
+    public ShipRequest newShipRequest() {
+        return new ShipRequest();
     }
 }

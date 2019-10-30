@@ -4,6 +4,7 @@ import pl.gdela.acme.catalog.Bla;
 import pl.gdela.acme.catalog.Foo;
 import pl.gdela.acme.inventory.Inventory;
 import pl.gdela.acme.invoicing.Invoicing;
+import pl.gdela.acme.shipping.ShipRequest;
 import pl.gdela.acme.shipping.Shipping;
 
 public class Orders {
@@ -17,5 +18,10 @@ public class Orders {
         shipping.a();
         shipping.b();
         shipping.c();
+        shipping.d();
+        shipping.e();
+        shipping.f();
+        ShipRequest shipRequest = shipping.newShipRequest();
+        System.out.println(shipRequest.toString());
     }
 }
