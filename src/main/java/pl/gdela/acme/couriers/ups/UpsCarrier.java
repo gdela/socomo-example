@@ -1,4 +1,10 @@
 package pl.gdela.acme.couriers.ups;
 
-public class UpsCarrier {
+import pl.gdela.acme.couriers.Carrier;
+
+public class UpsCarrier implements Carrier {
+    @Override
+    public String name() {
+        return "UPS";
+    }
 }

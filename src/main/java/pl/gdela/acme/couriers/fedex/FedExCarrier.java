@@ -1,4 +1,10 @@
 package pl.gdela.acme.couriers.fedex;
 
-public class FedExCarrier {
+import pl.gdela.acme.couriers.Carrier;
+
+public class FedExCarrier implements Carrier {
+    @Override
+    public String name() {
+        return "FedEx";
+    }
 }
