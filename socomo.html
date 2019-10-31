@@ -22,6 +22,7 @@ composition = [{ module: 'Acme Shop' },
     'shipping'                           :{ share: 20 },
   },
   dependencies: {
+    'inventory -> couriers'              :{ strength: 5 },
     'orders -> catalog'                  :{ strength: 3 },
     'orders -> inventory'                :{ strength: 2 },
     'orders -> invoicing'                :{ strength: 2 },
